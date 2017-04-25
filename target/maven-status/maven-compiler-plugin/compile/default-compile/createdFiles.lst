@@ -1,0 +1,9 @@
+com\crafters\response\dto\StatsDTO.class
+com\crafters\response\dto\ProductsDTO.class
+com\crafters\dao\DemoDao.class
+com\crafters\request\dto\DemoRequestDTO.class
+com\crafters\service\controller\ProductServiceController.class
+com\crafters\service\controller\WelcomeController.class
+com\crafters\response\dto\ProductResponseDTO.class
+com\crafters\service\controller\SpringBootWebApplication.class
+com\crafters\daoImpl\DemoDaoImplMongo.class
