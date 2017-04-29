@@ -28,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-7 navigation-agileits">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header nav_2">
-					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1 pull-left" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
