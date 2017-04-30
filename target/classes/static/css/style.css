@@ -20,6 +20,10 @@ body a {
 	-ms-transition: 0.5s all;
 	text-decoration: none;
 }
+.header-color{
+	background: #2F4F4F;
+}
+
 .smoothscroll-position {
 	position: fixed;
 	z-index: 2;
@@ -131,12 +135,12 @@ img {
 	font-size:16px;
 }
 .header-bottom-w3ls {
-    background: #000;
+    background: #2F4F4F;
 	padding:10px 0;
 }
 .navbar-default {
     border-color: transparent;
-    background: #000;
+    background: #2F4F4F;
 }
 .dropdown-menu ul li {
     list-style-type: none;
@@ -1994,7 +1998,7 @@ p.w3-agile{
 		width: 33%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 1366px){
@@ -2002,7 +2006,7 @@ p.w3-agile{
 		width: 35%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 1280px){
@@ -2013,7 +2017,7 @@ p.w3-agile{
 		left: 64%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 
@@ -2059,7 +2063,7 @@ p.w3-agile{
 		width: 34%;
 	}
 	.slider-rotator-height{
-		height:500px;
+		height:450px;
 	}
 }
 @media screen and (max-width: 1024px){
@@ -2079,7 +2083,7 @@ p.w3-agile{
 		left: 61.1%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 991px){
@@ -2290,7 +2294,7 @@ p.w3-agile{
 		padding: 0em;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 900px){
@@ -2304,7 +2308,7 @@ p.w3-agile{
 		left: 47%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 800px){
@@ -2329,7 +2333,7 @@ p.w3-agile{
 		left: 41%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 768px){
@@ -2370,7 +2374,7 @@ p.w3-agile{
 		width: 100%;
 	}
 	.slider-rotator-height{
-		height:500px !important;
+		height:450px !important;
 	}
 }
 @media screen and (max-width: 736px){
@@ -2385,15 +2389,20 @@ p.w3-agile{
 	.search-agileinfo {
 		width: 60%;
 		float: left;
+		position: absolute;
+	    left: 48px;
+	    top: 14px;
 	}
 	.cart-wthree {
 		width: 40%;
 		float: left;
 		text-align: right;
+		position: absolute;
+    	right: 1px;	
 	}
 	.navbar-toggle {
 		border-radius: 0;
-		background:#808080;
+		/* background:#808080; */
 		float:none;
 		transition: 0.5s all;
 		-webkit-transition: 0.5s all;
@@ -2412,8 +2421,8 @@ p.w3-agile{
 		background-color: #fff;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: #000;
-		border: #000;
+		background-color: #2F4F4F;
+		border: #2F4F4F;
 	}
 	button.search {
 		right: 17px;
@@ -3132,13 +3141,18 @@ p.w3-agile{
 		left: 172px;
 	}
 	.search-agileinfo {
-		width: 70%;
-		float: left;
+		width: 58% !important;
+    	float: left;
+		position: absolute !important;
+   		left: 48px !important;
+    	top: 14px;
 	}
 	.cart-wthree {
 		width: 30%;
-		float: left;
-		text-align: right;
+    	float: left;
+   		text-align: right;
+    	position: absolute;
+    	right: 1px;
 	}
 	.top-product-grids {
 		width: 100%;
